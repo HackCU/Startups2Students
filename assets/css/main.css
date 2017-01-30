@@ -29,14 +29,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 p {
-  margin: 0 0 30px; }
+  margin: 0 0 30px;
+  text-align: left;}
 
 ul li {
   font-weight: 700;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  text-align: left;
+ }
 
 .custom-list-icon, .list-arrow-right {
   list-style-type: none;
@@ -71,11 +75,13 @@ ul li {
 .btn:active.focus,
 .btn:active:focus,
 .btn:focus {
-  outline: none; }
+  outline: none;
+}
 
 .btn {
-  border: 0;
-  border-radius: 0;
+  border: 1;
+  border-radius: 1;
+  border-color: black;
   padding: 6px 28px;
   text-transform: uppercase;
   transform: translateZ(0);
@@ -258,6 +264,7 @@ ul li {
     font-size: 14px;
     font-weight: 700;
     margin-right: 5px;
+    margin-top: 5px;
     letter-spacing: 3px;
     text-transform: uppercase; }
     .site-branding .logo img {
@@ -295,8 +302,7 @@ ul li {
     @media (max-width: 767px) {
       .site-header .intro {
         padding-top: 40px; }
-        .site-header .intro img {
-          display: none; } }
+        .site-header .intro img {} }
     .site-header .intro h2 {
       margin-top: 0px;
       font-size: 25px;
@@ -358,6 +364,26 @@ ul li {
 /*
  * 6.4 Section: Registration & Pricing
  */
+.register {
+  text-align: center;
+}
+
+.btn-registration{
+  display: inline-block;
+  margin: 30px;
+}
+
+.btn-noclick {
+  color: #D3CCCC;
+  border-color: #D3CCCC;
+  margin: 30px;
+  transform: none;
+}
+.btn-noclick:hover{
+  transform: none;
+  color: #D3CCCC;
+}
+
 /*
  * 6.5 Section: Contribution
  */
@@ -527,7 +553,7 @@ ul li {
 
   .grid-item-md-3 {
     width: 25%; } }
-/* 
+/*
  * 7.0 Site-footer
  */
 .site-footer {
@@ -536,6 +562,7 @@ ul li {
   text-align: center;
   padding: 30px 0; }
   .site-footer .site-info {
+    text-align: center;
     font-weight: 400;
     margin-bottom: 10px; }
     .site-footer .site-info a {
