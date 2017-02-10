@@ -200,7 +200,7 @@ ul li {
     letter-spacing: 1px;
     margin: 0 0 60px;
     text-transform: uppercase;
-    text-align: left; } }
+    text-align: center; } }
 .scrolloff {
   pointer-events: none; }
 
@@ -420,6 +420,10 @@ ul li {
 /*
  * 6.7 Section: Schedule
  */
+.partner-img{
+  display: inline-block;
+}
+
 .partner {
   background-color: #f8f8f8; }
   .partner .partner-box {
@@ -577,6 +581,8 @@ ul li {
 
 #companies img {
   opacity: 0.6;
+  width: 75%;
+  margin: 20px;
 }
 
 #companies img:hover {
