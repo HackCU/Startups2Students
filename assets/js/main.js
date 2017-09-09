@@ -6,7 +6,7 @@ $(window).scroll(function(){
 	handleTopNavAnimation();
 });
 
-$(window).load(function(){
+$(function(){
 	handleTopNavAnimation();
 });
 
