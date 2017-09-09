@@ -285,7 +285,11 @@ ul li {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/hackcu-background.png) no-repeat center center/cover;
+  background: linear-gradient(
+      rgba(34, 181, 115, 0.45), 
+      rgba(34, 181, 115, 0.45)
+    ),
+  url(../images/backgrounds/background.jpg) no-repeat center center/cover;
   background-color: #22b573;
 }
   .site-header::before {
