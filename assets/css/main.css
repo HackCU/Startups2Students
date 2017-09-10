@@ -94,7 +94,7 @@ ul li {
 }
 
 .navbar-custom {
-  background-color: #22b573 !important;
+  background-color: transparent;
 }
 /*.btn.active.focus,
 .btn.active:focus,
@@ -293,8 +293,8 @@ ul li {
   position: relative;
   text-align: center;
   background: linear-gradient(
-      rgba(34, 181, 115, 0.45), 
-      rgba(34, 181, 115, 0.45)
+      rgba(34, 181, 115, 0.75),
+      rgba(34, 181, 115, 0.75)
     ),
   url(../images/backgrounds/background.jpg) no-repeat center center/cover;
   background-color: #22b573;
