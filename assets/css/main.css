@@ -1,17 +1,17 @@
 /*
  * 1. Google Font
  */
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 /*
  * 2.0 Global Style
  */
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 16px; }
 
 body {
   color: #4e4e4e;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
