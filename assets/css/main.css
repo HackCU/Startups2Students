@@ -198,9 +198,13 @@ ul li {
     left: 0; }
 
 .bg-image-1 {
-  background: url(../images/backgrounds/bg-1.jpg) no-repeat center center/cover; }
+  background: linear-gradient(
+          rgba(34, 181, 115, 0.5),
+          rgba(34, 181, 115, 0.5)
+  ),
+  url(../images/backgrounds/bg-1.jpg) no-repeat center center/cover; }
   .bg-image-1::before {
-    background-color: rgba(0, 0, 0, 0.7); }
+    background-color: rgba(0, 0, 0, 0.2); }
 
 .bg-image-2 {
   background: url(../images/backgrounds/bg-2.jpg) no-repeat center bottom/cover; }
@@ -311,6 +315,7 @@ ul li {
     right: 0;
     bottom: 0;
     left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
   }
   .site-header .intro {
     color: #fff;
