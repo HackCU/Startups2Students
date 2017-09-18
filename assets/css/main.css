@@ -16,7 +16,8 @@ body {
   font-weight: 300;
   line-height: 1.6;
   position: relative;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+}
 
 a {
   color: #000; }
@@ -85,6 +86,10 @@ ul li {
   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: white;
+}
+
+.btn-accent:hover {
+    background: #a2ea6a;
 }
 
 .navbar-solid {
@@ -603,4 +608,14 @@ ul li {
 
 #companies img:hover {
   opacity: 1;
+}
+
+
+#apply {
+  background-color: #a2ea6a;
+}
+
+#apply h3 {
+  color: black;
+  margin-bottom: 2em;
 }
