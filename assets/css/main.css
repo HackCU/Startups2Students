@@ -35,6 +35,7 @@ h6 {
 
 .location {
   padding-bottom: 0px !important;
+  background-color: #f8f8f8;
 }
 
 p {
@@ -410,6 +411,9 @@ ul li {
   color: #D3CCCC;
 }
 
+#startups {
+  background-color: #f8f8f8;
+}
 /*
  * 6.5 Section: Contribution
  */
@@ -421,7 +425,8 @@ ul li {
  * 6.6 Section: Schedule
  */
 .schedule {
-  background-color: #f8f8f8; }
+  /*background-color: #f8f8f8; */
+}
 
 .schedule-box {
   position: relative;
