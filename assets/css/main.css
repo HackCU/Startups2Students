@@ -629,3 +629,13 @@ ul li {
   color: black;
   margin-bottom: 2em;
 }
+
+.startups img {
+  -webkit-filter: contrast(60%); /* Safari */
+  filter: contrast(60%);
+}
+
+.startups img:hover {
+  -webkit-filter: contrast(100%); /* Safari */
+  filter: contrast(100%);
+}
