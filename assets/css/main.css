@@ -82,15 +82,16 @@ ul li {
 }
 
 .btn-accent{
-  background: #22b573;
+  background: white;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: white;
+  color: #16754A;
 }
 
 .btn-accent:hover {
-    background: #a2ea6a;
+    background: #E0E0E0 !important;
+    color: #16754A;
 }
 
 .navbar-solid {
@@ -622,11 +623,11 @@ ul li {
 
 
 #apply {
-  background-color: #a2ea6a;
+  background-color: #22b573;
 }
 
 #apply h3 {
-  color: black;
+  color: white;
   margin-bottom: 2em;
 }
 
