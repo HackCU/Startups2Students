@@ -35,7 +35,7 @@ h6 {
 
 .location {
   padding-bottom: 0px !important;
-  background-color: #f8f8f8;
+  background-color: white;
 }
 
 p {
@@ -438,7 +438,7 @@ ul li {
  * 6.6 Section: Schedule
  */
 .schedule {
-  /*background-color: #f8f8f8; */
+  background-color: #f8f8f8;
 }
 
 .schedule-box {
@@ -591,7 +591,8 @@ ul li {
     margin: 0 0 30px; }
 
   figure {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+}
 @media (min-width: 992px) {
   .schedule-box {
     margin: 0; }
@@ -600,7 +601,8 @@ ul li {
     width: 50%; }
 
   .grid-item-md-3 {
-    width: 25%; } }
+    width: 25%; }
+}
 
 /*
  * 7.0 Site-footer
@@ -660,4 +662,11 @@ ul li {
 .startups img:hover {
   -webkit-filter: contrast(100%); /* Safari */
   filter: contrast(100%);
+}
+
+/* Phone screen sizes */
+@media only screen and (max-device-width: 480px) {
+  .student-btn {
+    margin-top: 1em;
+  }
 }
