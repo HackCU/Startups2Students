@@ -98,19 +98,6 @@ ul li {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-.btn-accent2 {
-  background: #a2ea6a;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: black;
-}
-
-.btn-accent2:hover {
-  background: #22b573;
-  color: white;
-}
-
 .navbar-solid {
   -webkit-box-shadow: 0 0 4px 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 4px 5px rgba(0, 0, 0, 0.2);
