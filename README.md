@@ -14,8 +14,3 @@ With Python 3.x
 $ python3 -m http.server
 ```
 
-### With Sass
-```shell
-$ gem install sass
-$ sass --watch assets/scss:assets/css
-```
