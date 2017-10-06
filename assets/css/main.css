@@ -35,7 +35,6 @@ h6 {
 
 .location {
   padding-bottom: 0px !important;
-  background-color: white;
 }
 
 p {
@@ -47,6 +46,23 @@ ul li {
   margin-bottom: 10px;
   text-align: left;
  }
+
+.white-bg{
+  background-color: white;
+}
+.grey-bg{
+	background-color: #f8f8f8;	
+}
+
+.roles{
+	padding-top: 20px;
+}
+
+.role{
+	text-align: center;
+	padding: 5px;
+  font-size: 20px;
+}
 
 .custom-list-icon, .list-arrow-right {
   list-style-type: none;
@@ -422,22 +438,12 @@ ul li {
   color: #D3CCCC;
 }
 
-#startups {
-  background-color: #f8f8f8;
-}
 /*
  * 6.5 Section: Contribution
  */
 .contribution {
   text-align: center;
   color: #fff; }
-
-/*
- * 6.6 Section: Schedule
- */
-.schedule {
-  background-color: #f8f8f8;
-}
 
 .schedule-box {
   position: relative;
@@ -586,7 +592,7 @@ ul li {
     width: 25%; }
 
   .section-title {
-    margin: 0 0 30px; }
+    margin: 0 0 90px; }
 
   figure {
     margin-bottom: 0; }
