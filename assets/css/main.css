@@ -265,15 +265,18 @@ ul li {
   .navbar-custom .navbar-nav li {
     margin: 0; }
   .navbar-custom .navbar-nav > li > a {
-    color: #fff;
+    transition: all .2s ease;
+    color: #ddd;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
     border-bottom: 1px solid transparent; }
     .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
+      color: #efefef;
       background-color: transparent;
       border-color: rgba(255, 255, 255, 0.5); }
   .navbar-custom .navbar-nav > .active > a {
+    color: #fff;
     border-color: rgba(255, 255, 255, 0.5); }
 
 .navbar-toggle {
