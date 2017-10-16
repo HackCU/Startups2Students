@@ -14,3 +14,5 @@ With Python 3.x
 $ python3 -m http.server
 ```
 
+### Contribution
+Follow these [guidelines](.github/CONTRIBUTING.md)
