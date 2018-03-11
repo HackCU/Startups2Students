@@ -1,0 +1,9 @@
+original_repo: https://github.com/hackcu/hackcu
+edition: Spring 2018
+s2s_date: April 5th
+startups_apply: https://hackcu.typeform.com/to/ItLkgp
+fb_event: https://www.facebook.com/events/163251504398182/
+
+sass:
+    sass_dir: assets/_sass
+    style: compressed

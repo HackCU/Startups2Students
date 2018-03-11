@@ -1,7 +1,9 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Startups2Students | March 22nd | Idea Forge, Boulder</title>
+    <title>Startups2Students {{site.edition}} | {{site.s2s_date }} | Idea Forge, Boulder</title>
 
     <!-- Meta Information -->
     <meta charset="utf-8">
@@ -14,32 +16,32 @@
           content="Startup, Students, talent, University of Colorado, CU Boulder, HackCU, Boulder, Idea Forge, Innovation and entrepreneurship"/>
     <meta name="author" content="Startups2Students"/>
     <meta name="theme-color" content="#22b573">
-    <meta name="copyright" content="Startups2Students 2017"/>
-    <meta name="application-name" content="Startups2Students Fall 2017"/>
+    <meta name="copyright" content="Startups2Students"/>
+    <meta name="application-name" content="Startups2Students {{site.edition }}"/>
 
     <!-- for Facebook -->
-    <meta property="og:title" content="Startups2Students | October 19th | Idea Forge, Boulder"/>
-    <meta property="og:image" content="https://hackcu.org/img/s2s_ogimage.jpg"/>
+    <meta property="og:title" content="Startups2Students {{site.edition}} | {{site.s2s_date }} | Idea Forge, Boulder"/>
+    <meta property="og:image" content="https://startups2students.org/assets/images/s2s_ogimage.png"/>
     <meta property="og:url" content="https://startups2students.org"/>
     <meta property="og:description"
           content="Bridging the gap between student talent and startups. We connect motivated CU students with the startup community in Boulder"/>
 
     <!-- for Twitter -->
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="Startups2Students | October 19th | Idea Forge, Boulder"/>
+    <meta name="twitter:title" content="Startups2Students {{site.edition}} | {{site.s2s_date }} | Idea Forge, Boulder"/>
     <meta name="twitter:site" content="@hackcu">
     <meta name="twitter:creator" content="@hackcu">
     <meta name="twitter:description"
           content="Bridging the gap between student talent and startups. We connect motivated CU students with the startup community in Boulder"/>
-    <meta name="twitter:image" content="https://hackcu.org/img/s2s_ogimage.jpg"/>
+    <meta name="twitter:image" content="https://startups2students.org/assets/images/s2s_ogimage.png"/>
 
 
     <!-- css -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/main.css?v=1.0.1">
-    <link rel="icon" href="assets/images/favicon.ico?">
+    <link rel="stylesheet" href="assets/css/main.css?_={{ site.time |  date: '%s' }}">
+    <link rel="icon" href="assets/images/favicon.ico">
 
 
 </head>
@@ -90,12 +92,12 @@
     <div class="intro">
         <img style="margin-bottom: 30px; max-width:90%" src="assets/images/s2s_logotrimmed.png" alt="Logo">
         <h1 style="text-transform: none;">Bridging the gap between students and startups</h1><br>
-        <h2 style="margin-bottom: 30px; font-weight: bold;">Thursday March 22nd, 2018 <br> University of Colorado Boulder <br> 6:00 - 8:00 PM </h2>
+        <h2 style="margin-bottom: 30px; font-weight: bold;">{{ site.s2s_date |  date: '%A %B %e, %Y' }}<br> University of Colorado Boulder <br> 6:00 - 8:00 PM </h2>
         <div class="row">
             <div class="col-lg-4">
             </div>
             <div class="col-lg-4">
-                <a href="https://hackcu.typeform.com/to/ItLkgp" target="_blank" class="btn btn-accent"
+                <a href="{{site.startups_apply}}" target="_blank" class="btn btn-accent"
                style="font-size: 1.3em; font-weight: bold;">Startups Apply</a>
             </div>
             <div class="col-lg-4">
@@ -154,7 +156,7 @@
                 <h3>Students, join the Facebook Event! <br> There is no registration this year. Just show up!</h3>
             </div>
             <div class="col-lg-12">
-                <a id="facebook" href="https://www.facebook.com/events/163251504398182/" target="_blank" class="btn btn-accent"
+                <a id="facebook" href="{{site.fb_event}}" target="_blank" class="btn btn-accent"
                    style="font-size: 1.3em; font-weight: bold;">Join the Facebook Event</a>
             </div>
         </div>
@@ -421,20 +423,18 @@
                 <th class="text-center">Activity</th>
             </tr>
             </thead>
-            <tr>
-                <td>6:00 pm</td>
-                <td>Startups Pitch to Students</td>
-                <td>Each startup will have 2 minutes to sell you on their company</td>
+            {% for event in site.data.schedule %}
+             <tr>
+                <td>{{event.time}}</td>
+                <td>{{event.title}}</td>
+                <td>{{event.description}}</td>
             </tr>
-            <tr>
-                <td>7:00 pm</td>
-                <td>Networking Event</td>
-                <td>Startups and students have time to network</td>
-            </tr>
+            {%endfor%}
+            
         </table>
     </div>
 </section>
-
+{% if site.data.roles %}
 <section id="positions" class="section">
     <div class="container-fluid">
         <div class="row">
@@ -442,25 +442,15 @@
                 <h2 class="section-title">Available Positions</h2>
                 <h3 class="text-center">Companies will be recruiting for these positions</h3>
                 <div class="row roles">
-                    <div class="col-md-4 col-sm-6 role">Software Development</div>
-                    <div class="col-md-4 col-sm-6 role">Marketing</div>
-                    <div class="col-md-4 col-sm-6 role">Customer Success</div>
-                    <div class="col-md-4 col-sm-6 role">Sales</div>
-                    <div class="col-md-4 col-sm-6 role">Operations</div>
-                    <div class="col-md-4 col-sm-6 role">Front-End Development</div>
-                    <div class="col-md-4 col-sm-6 role">Business Development</div>
-                    <div class="col-md-4 col-sm-6 role">Design</div>
-                    <div class="col-md-4 col-sm-6 role">UX / UI</div>
-                    <div class="col-md-4 col-sm-6 role">App Devlopment</div>
-                    <div class="col-md-4 col-sm-6 role">Back-End Development</div>
-                    <div class="col-md-4 col-sm-6 role">Film Production / Editing</div>
-                    <div class="col-sm-12 role">Business Strategy / Inbound Sales</div>
+                    {% for role in site.data.roles %}
+                    <div class="col-md-4 col-sm-6 role">{{role}}</div>
+                    {%endfor%}
                 </div>
             </div>
         </div>
     </div>
 </section>
-
+{%endif%}
 <section id="location" class="section location grey-bg">
     <div class="container-fluid">
         <div class="row">
@@ -499,7 +489,7 @@
 <!-- script -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.js?_={{ site.time |  date: '%s' }}"></script>
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
