@@ -195,146 +195,167 @@
 </section>
 
 
-
+{% if site.data.startups %}
 <section id="currentstartups" class="section startups" style="text-align: center">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="section-title">Previous Startups</h2>
+                <h2 class="section-title">Startups</h2>
             </div>
         </div>
 
         <div class="row">
+            {% for startup in site.data.startups %}
             <div class="col-lg-3 col-md-3 col-sm-12">
-                <a href="https://alpin.io/" target="_blank"><img
+                <a href="{{startup.url}}/" target="_blank"><img
                         style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/alpinio_logo.png" alt="Alpin.io"></a>
+                        src="{{startup.image_url}}" alt="{{startup.name}}"></a>
             </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-12">
-                <a href="http://www.informu.io" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/informu.png" alt="informu"></a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-12">
-                <a href="https://siliconflatirons.org/student-opportunities/startup-summer/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/Startup-Summer-logo.png" alt="startup summer"></a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-12">
-                <a href="https://www.flytedesk.com//" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/flytedesk.png" alt="flytedeskr"></a>
-            </div>
-        </div>
-        <div class="row">
-
-
-            <div class="col-lg-3 col-md-3 col-sm-12">
-                <a href="http://www.giveandgofilm.com/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/giveandgo.png" alt="give and go"></a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
-                <a href="https://www.neatcapital.com/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/Neat_Capital.png" alt="Neat Capital"></a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
-                <a href="https://swimlane.com/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/swimlane.png" alt="swimlane"></a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
-                <a href="http://www.specdrums.com/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/specdrums.png" alt="specdrumbs"></a>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
-                <a href="https://www.boulderbits.com/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/boulderbits.png" alt="boulder bits"></a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
-                <a href="http://www.welcometojust.com/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/juststudios.png" alt="just.studios"></a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
-                <a href="http://truestliving.com/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/Truest.png" alt="Truest"></a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
-                <a href="https://www.eyesightcollective.com/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/Eyesight_Collective.png" alt="Eyesight collective"></a>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
-                <a href="http://www.asset-edu.org/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/asset.png" alt="Asset education"></a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
-                <a href="https://www.stryd.com/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/stryd.png" alt="stryd"></a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
-                <a href="https://pagedip.com/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/pagedip-splot-gold.png" alt="Pagedip"></a>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
-                <a href="http://splitsmart.net/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/SPS.png" alt="Splitsmart"></a>
-            </div>
-
-        </div>
-
-        <div class="row last">
-
-            <div class="col-lg-4 col-md-4 col-sm-12" style="margin-top: 1.5em;">
-                <a href="https://www.k2fund.co/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/k2fund.png" alt="k2 fund"></a>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-12" style="margin-top: 1.5em;">
-                <a href="https://www.chargacard.com/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/charga.png" alt="Charga Card"></a>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-12" style="margin-top: 1.5em;">
-                <a href="https://www.myramakes.com/" target="_blank"><img
-                        style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
-                        src="assets/images/current_companies/myra-makes.png" alt="Charga Card"></a>
-            </div>
-
+            {% endfor %}
         </div>
     </div>
 </section>
+{% else %}
+<section id="currentstartups" class="section startups" style="text-align: center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-title">Previous Startups</h2>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <a href="https://alpin.io/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/alpinio_logo.png" alt="Alpin.io"></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <a href="http://www.informu.io" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/informu.png" alt="informu"></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <a href="https://siliconflatirons.org/student-opportunities/startup-summer/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/Startup-Summer-logo.png" alt="startup summer"></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <a href="https://www.flytedesk.com//" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/flytedesk.png" alt="flytedeskr"></a>
+                </div>
+            </div>
+            <div class="row">
+    
+    
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <a href="http://www.giveandgofilm.com/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/giveandgo.png" alt="give and go"></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="https://www.neatcapital.com/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/Neat_Capital.png" alt="Neat Capital"></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="https://swimlane.com/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/swimlane.png" alt="swimlane"></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="http://www.specdrums.com/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/specdrums.png" alt="specdrumbs"></a>
+                </div>
+            </div>
+    
+            <div class="row">
+    
+                <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="https://www.boulderbits.com/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/boulderbits.png" alt="boulder bits"></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="http://www.welcometojust.com/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/juststudios.png" alt="just.studios"></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="http://truestliving.com/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/Truest.png" alt="Truest"></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="https://www.eyesightcollective.com/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/Eyesight_Collective.png" alt="Eyesight collective"></a>
+                </div>
+            </div>
+    
+            <div class="row">
+    
+                <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="http://www.asset-edu.org/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/asset.png" alt="Asset education"></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="https://www.stryd.com/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/stryd.png" alt="stryd"></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="https://pagedip.com/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/pagedip-splot-gold.png" alt="Pagedip"></a>
+                </div>
+    
+                <div class="col-lg-3 col-md-3 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="http://splitsmart.net/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/SPS.png" alt="Splitsmart"></a>
+                </div>
+    
+            </div>
+    
+            <div class="row last">
+    
+                <div class="col-lg-4 col-md-4 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="https://www.k2fund.co/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/k2fund.png" alt="k2 fund"></a>
+                </div>
+    
+                <div class="col-lg-4 col-md-4 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="https://www.chargacard.com/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/charga.png" alt="Charga Card"></a>
+                </div>
+    
+                <div class="col-lg-4 col-md-4 col-sm-12" style="margin-top: 1.5em;">
+                    <a href="https://www.myramakes.com/" target="_blank"><img
+                            style="max-width: 300px; max-height:200px; padding: 25px; display: inline-block"
+                            src="assets/images/current_companies/myra-makes.png" alt="Myra Makes"></a>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+{%endif%}
 
 
 <section id="apply" class="section facts text-center">
@@ -351,61 +372,7 @@
     </div>
 </section>
 
-<!--<section id="startups" class="section startups" style="text-align: center">-->
-    <!--<div class="container">-->
-        <!--<div class="row">-->
-            <!--<div class="col-md-12">-->
-                <!--<h2 class="section-title">Previous Startups</h2>-->
-            <!--</div>-->
-        <!--</div>-->
 
-        <!--<div class="row">-->
-            <!--<div class="col-lg-3 col-md-3 col-sm-12">-->
-                <!--<a href="http://simpleenergy.com/" target="_blank"><img-->
-                        <!--style="max-width: 100%; max-height:100px; padding: 25px; display: inline-block"-->
-                        <!--src="assets/images/old_companies/SimpleEnergy.png" alt=""></a>-->
-            <!--</div>-->
-            <!--<div class="col-lg-3 col-md-3 col-sm-12">-->
-                <!--<a href="https://www.hobbydb.com/" target="_blank"><img-->
-                        <!--style="max-width: 100%;  max-height:100px; padding: 25px; display: inline-block"-->
-                        <!--src="assets/images/old_companies/hobbydb.png" alt=""></a>-->
-            <!--</div>-->
-            <!--<div class="col-lg-3 col-md-3 col-sm-12">-->
-                <!--<a href="http://www.rezora.com/" target="_blank"><img-->
-                        <!--style="max-width: 100%;  max-height:100px; padding: 25px; display: inline-block"-->
-                        <!--src="assets/images/old_companies/rezora.png" alt=""></a>-->
-            <!--</div>-->
-            <!--<div class="col-lg-3 col-md-3 col-sm-12">-->
-                <!--<a href="https://www.flytedesk.com/" target="_blank"><img-->
-                        <!--style="max-width: 100%;  max-height:100px; padding: 25px; display: inline-block"-->
-                        <!--src="assets/images/old_companies/flytedesk.png" alt=""></a>-->
-            <!--</div>-->
-        <!--</div>-->
-
-        <!--<div class="row">-->
-            <!--<div class="col-lg-3 col-md-3 col-sm-12">-->
-                <!--<a href="https://swimlane.com/" target="_blank"><img-->
-                        <!--style="max-width: 100%;  max-height:100px; padding: 25px"-->
-                        <!--src="assets/images/old_companies/swimlane.png" alt=""></a>-->
-            <!--</div>-->
-            <!--<div class="col-lg-3 col-md-3 col-sm-12">-->
-                <!--<a href="https://www.edntech.com/" target="_blank"><img-->
-                        <!--style="max-width: 100%;  max-height:100px; padding: 25px" src="assets/images/old_companies/edn.png"-->
-                        <!--alt=""></a>-->
-            <!--</div>-->
-            <!--<div class="col-lg-3 col-md-3 col-sm-12">-->
-                <!--<a href="https://getalmond.com/" target="_blank"><img-->
-                        <!--style="max-width: 100%;  max-height:100px; padding: 25px"-->
-                        <!--src="assets/images/old_companies/almond.png" alt=""></a>-->
-            <!--</div>-->
-            <!--<div class="col-lg-3 col-md-3 col-sm-12">-->
-                <!--<a href="https://blackrockog.com" target="_blank"><img-->
-                        <!--style="max-width: 100%;  max-height:100px; padding: 25px"-->
-                        <!--src="assets/images/old_companies/blackrockBlack.png" alt=""></a>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</section>-->
 
 <section id="schedule" class="section schedule grey-bg">
     <div class="container">
