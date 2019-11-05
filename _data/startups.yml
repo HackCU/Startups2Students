@@ -1,3 +1,7 @@
-# -  name: Myra Makes
-#    image_url: assets/images/current_companies/myra-makes.png
-#    url: https://www.myramakes.com/
+-  name: Internalyze
+   image_url: assets/images/current_companies/internalyze.PNG
+   url: https://www.internalyze.co
+
+- name: Stride Tech
+  image_url: assets/images/current_companies/stridetech.png
+  url: https://www.stridetechmedical.com
