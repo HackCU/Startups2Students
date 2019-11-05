@@ -1,6 +1,6 @@
--  name: Internalyze
-   image_url: assets/images/current_companies/internalyze.PNG
-   url: https://www.internalyze.co
+- name: Internalyze
+  image_url: assets/images/current_companies/internalyze.PNG
+  url: https://www.internalyze.co
 
 - name: Stride Tech
   image_url: assets/images/current_companies/stridetech.png
