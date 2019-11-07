@@ -1,7 +1,3 @@
-- name: Internalyze
-  image_url: assets/images/current_companies/internalyze.PNG
-  url: https://www.internalyze.co
-
 - name: Stride Tech
   image_url: assets/images/current_companies/stridetech.png
   url: https://www.stridetechmedical.com
@@ -9,3 +5,51 @@
 - name: Longs Peak Advisory Services
   image_url: assets/images/current_companies/longspeakadvisory.png
   url: https://longspeakadvisory.com
+
+- name: Mini Money Management
+  image_url: assets/images/current_companies/minimoneymanagement.png
+  url: https://www.minimoneymanagement.com/
+
+- name: BlueMatch
+  image_url: assets/images/current_companies/bluematch.png
+  url: https://bluematch.com
+
+- name: Halp
+  image_url: assets/images/current_companies/halp.png
+  url: https://halp.com
+
+- name: Nutrislice
+  image_url: assets/images/current_companies/nutrislice.png
+  url: http://www.nutrislice.com
+
+- name: Orphic Guard LLC
+  image_url: assets/images/current_companies/orphic.png
+  url: https://www.orphicguard.com
+
+- name: Reel--Friends
+  image_url: assets/images/current_companies/reel.png
+  url: https://reel-friends-2.kickoffpages.com/
+
+- name: Vulcan Career Technologies
+  image_url: assets/images/current_companies/vulcan.png
+  url: https://vulcancareertechnologies.com
+
+- name: Internalyze
+  image_url: assets/images/current_companies/internalyze.png
+  url: https://www.internalyze.co
+
+- name: Rule4
+  image_url: assets/images/current_companies/rule4.png
+  url: https://rule4.com
+
+- name: Stateless
+  image_url: assets/images/current_companies/stateless.png
+  url: https://www.stateless.net
+
+- name: 11 Dollar Bill
+  image_url: assets/images/current_companies/11.png
+  url: http://11dollarbill.com
+
+- name: NuAge Experts
+  image_url: assets/images/current_companies/nuageexperts.png
+  url: https://www.nuageexperts.com
